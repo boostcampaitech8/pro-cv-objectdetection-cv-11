@@ -23,3 +23,6 @@ sample_submission/*
 dataset과 sample_submission 내부도 ignore처리해놓았으나, sample_submission은 경우에 따라 풀어도 될 것 같습니다. 
 
 5명 폴더 안에 각각 baseline을 넣기엔 용량이 문제가 될까봐 base_codes에서 연결해와서 쓰는 방향으로 설계했습니다..
+
+
+prototype test
