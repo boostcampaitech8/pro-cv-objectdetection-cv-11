@@ -6,3 +6,5 @@ base_codes/object_detection.egg-info
 dataset/* 
 
 sample_submission/*
+
+ssh.md

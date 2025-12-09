@@ -1,1 +1,8 @@
 errors/
+yolov3_inference.ipynb
+faster_rcnn_inference.ipynb
+faster_rcnn_train.ipynb
+cascade_rcnn_swin_train.ipynb
+work_dirs/
+sample_submission/
+yolov3/
