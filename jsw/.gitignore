@@ -1,5 +1,5 @@
 errors/
-yolov3_inference.ipynb
+scripts/yolo/yolov3_inference.ipynb
 faster_rcnn_inference.ipynb
 faster_rcnn_train.ipynb
 cascade_rcnn_swin_train.ipynb
