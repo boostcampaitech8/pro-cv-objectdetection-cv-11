@@ -11,7 +11,7 @@ from pycocotools.coco import COCO
 base_path = "/data/ephemeral/home/jsw_pro-cv-objectdetection-cv-11/base_codes/mmdetection"
 home_path = "/data/ephemeral/home"
 work_path = "/data/ephemeral/home/jsw_pro-cv-objectdetection-cv-11/jsw"
-submission_name = "251209_detr_1_epoch.csv"
+submission_name = "251211_detr_10_epoch.csv"
 
 # custom 설정
 classes = ("General trash", "Paper", "Paper pack", "Metal", "Glass",
@@ -21,12 +21,12 @@ root = f"{home_path}/dataset"
 test_ann = "test.json"
 
 # saved_epoch = 1
-saved_epoch = 1
+saved_epoch = 10
 batch_size = 4
 score_thr = 0.05
 device = "cuda:0"
 
-work_dir = f"{work_path}/work_dirs/detr_r50_trash"
+work_dir = f"{work_path}/work_dirs/detr_r50_trash_251211"
 checkpoint_path = osp.join(work_dir, f"epoch_{saved_epoch}.pth")
 
 # config file 들고오기
