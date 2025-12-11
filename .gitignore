@@ -6,3 +6,11 @@ base_codes/object_detection.egg-info
 dataset/* 
 
 sample_submission/*
+
+
+# lsj
+/lsj/ultralytics/*
+/lsj/trash10-yolo11l/yolo11l-baseline/weights/*
+/lsj/trash10-yolo11l/yolo11l-tune/weights/*
+/lsj/yolo11l-dataaug/weights/*
+/lsj/yolo11l-dataaug-rev3/weights/*
