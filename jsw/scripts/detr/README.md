@@ -1,0 +1,8 @@
+- config 파일에 coco dataset으로 full pre-trained된 pth 경로 추가
+- roi_head 제거
+- 이미지 resize하는 scale 설정 제거(원본 해상도 사용)
+- 경로는 본인에 맞게 수정.
+- 1epoch만 일단 돌렸음. -> 이후 50epoch 돌림.
+- pre-trained된 pth를 사용하기로 함.
+    - **detr config 파일 맨 아래에 아래 한 줄 추가해야 함!!**
+    - load_from = "https://download.openmmlab.com/mmdetection/v3.0/detr/detr_r50_8xb2-150e_coco/detr_r50_8xb2-150e_coco_20221023_153551-436d03e8.pth"
