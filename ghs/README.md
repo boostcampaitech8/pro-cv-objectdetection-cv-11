@@ -1,5 +1,5 @@
 
-# ghs folder
+# GHS folder
 
 ## 키워드
 - EDA
@@ -16,6 +16,7 @@
 |-- faster_rcnn_inference.ipynb                       -> faster_rcnn 추론 베이스라인
 |-- faster_rcnn_train.ipynb                           -> faster_rcnn + wandb 베이스라인
 |-- ang.ipynb                                         -> 간단하게 WBF 앙상블
+|-- kfold_val.ipynb                                   -> kfold를 통해 train과 validation json 파일을 나눠주는 코드
 |-- cascade
 |   |-- cascade_rcnn_train.ipynb                      -> cascade_rcnn 베이스라인
 |   |-- cascade_rcnn_inference copy.ipynb             -> cascade_swin 추론
