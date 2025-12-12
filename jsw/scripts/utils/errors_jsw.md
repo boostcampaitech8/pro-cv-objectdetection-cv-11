@@ -32,4 +32,4 @@ llm 도움 받아 --allow-root 붙여서 함.
 jupyter notebook faster_rcnn_train.ipynb --allow-root
 
 음 근데 이러니까 그냥 주피터 노트북 웹브라우저가 열리네.
-생각해보니 우린 지금 vscode로 ssh 연결해서 있으니까 사실 그냥 주피터 노트북 그대로 실행하면 되는 거였음.
+생각해보니 우린 지금 vscode로 ssh 연결해서 있으니까 사실 그냥 주피터 노트북 그대로 실행하면 되는 거였음.dd jsw/errors_jsw.md
