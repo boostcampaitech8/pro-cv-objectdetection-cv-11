@@ -3,6 +3,9 @@
 
 # 디렉토리 구조
 ```bash
+configs
+|-- detr_r50_8xb2-150e_coco.py      => mmdetection detr config 파일
+|-- faster-rcnn_r50_fpn_1x_coco.py  => mmdetection faster-rcnn config 파일
 scripts
 |-- EDA
 |   |-- EDA_251204_jsw.ipynb  => 기본 EDA 노트북.
@@ -33,7 +36,8 @@ scripts
 |   `-- 현재환경.md                     => 위에 gpu_check.sh 결과와 데이터 셋 크기 등을 조합해 현 상황에 적절한 하이퍼파라미터 탐구해 정리해준 파일. 
 `-- yolo
     `-- yolov3_train.ipynb             => yolov3으로 학습을 돌리는 파일. 정상 작동함.
-                                       => 이 외에도 yolov3_inference.ipynb가 있으나, boostcamp 과제 코드이므로 공개 x.
+    `-- yolov3_inference.ipynb         => yolov3으로 추론을 돌리는 파일. 정상 작동함.
+                                       => 두 코드 모두 boostcamp 과제 코드이므로 공개 x.
 ```
 
 # 추가
