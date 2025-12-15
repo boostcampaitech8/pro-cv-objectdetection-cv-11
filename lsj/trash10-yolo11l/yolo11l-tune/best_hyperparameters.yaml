@@ -1,0 +1,20 @@
+# 11/30 iterations complete ✅ (39089.81s)
+# Results saved to /data/ephemeral/home/pro-cv-objectdetection-cv-11-sj/lsj/ultralytics/trash10-yolo11l/yolo11l-tune
+# Best fitness=0.14508 observed at iteration 1
+# Best fitness metrics are {'metrics/precision(B)': 0.27041, 'metrics/recall(B)': 0.28134, 'metrics/mAP50(B)': 0.19885, 'metrics/mAP50-95(B)': 0.14508, 'val/box_loss': 1.06336, 'val/cls_loss': 2.21943, 'val/dfl_loss': 1.56149, 'fitness': 0.14508}
+# Best fitness model is /data/ephemeral/home/pro-cv-objectdetection-cv-11-sj/lsj/ultralytics/trash10-yolo11l/train
+lr0: 0.01
+lrf: 0.01
+momentum: 0.937
+weight_decay: 0.0005
+warmup_epochs: 3.0
+box: 7.5
+cls: 0.5
+hsv_s: 0.7
+hsv_v: 0.4
+scale: 0.5
+translate: 0.1
+fliplr: 0.5
+flipud: 0.0
+mosaic: 1.0
+mixup: 0.0
