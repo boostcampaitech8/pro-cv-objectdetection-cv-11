@@ -1,6 +1,6 @@
 <div align='center'> 
   <h2>♻️ 재활용 품목 분류를 위한 Object Detection</h2>
-  사진
+  <img width="605" height="428" alt="Image" src="https://github.com/user-attachments/assets/5aa18669-83b9-495e-b5fd-c193890b8784" />
 </div>
 
 
